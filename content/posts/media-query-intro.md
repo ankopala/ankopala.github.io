@@ -2,7 +2,7 @@
 title = '媒体查询（Media Query）与 @media 用法'
 date = '2026-09-21T15:20:29+08:00'
 draft = false
-tags = ['html', 'css']
+tags = ['css']
 ShowToc = true
 description = '媒体查询（Media Query）与 @media 用法'
 +++

@@ -2,7 +2,7 @@
 title = 'YAML 与 TOML 详解'
 date = '2026-09-21T12:20:29+08:00'
 draft = false
-tags = ['html', 'css']
+tags = ['Hugo']
 ShowToc = true
 description = 'YAML 与 TOML 详解'
 +++

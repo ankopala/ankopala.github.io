@@ -1,8 +1,8 @@
 +++
-title = '窄屏适配与`position: stikiy`'
+title = '窄屏适配与 `position: stikiy` '
 date = '2026-09-21T15:20:29+08:00'
 draft = false
-tags = ['html', 'css']
+tags = ['css']
 ShowToc = true
 description = '窄屏适配与`position: stikiy`'
 +++

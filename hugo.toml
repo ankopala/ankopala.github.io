@@ -2,6 +2,41 @@ baseURL = 'https://ankopala.github.io/'
 locale = 'en-us'
 title = "ankopala's Blog"
 theme = "PaperMod"
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+
+[menu]
+
+  [[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "归档"
+    url = "/archives/"
+    weight = 2
+
+  [[menu.main]]
+    name = "标签"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
+    name = "搜索"
+    url = "/search/"
+    weight = 4
+
+  [[menu.main]]
+    name = "链接"
+    url = "/links/"
+    weight = 5
+
+  [[menu.main]]
+    name = "关于"
+    url = "/about/"
+    weight = 6
 
 [params]
 ShowToc = true
