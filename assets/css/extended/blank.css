@@ -1,23 +1,49 @@
-/* 撤销之前的 flex 两栏布局，让正文恢复原宽度 */
-.post-body-layout {
-    display: block;
+/* 容器：作为定位锚点 */
+.post-content-wrap {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
 }
 
-/* 目录栏：固定悬浮在屏幕左侧，不挤占正文 */
+/* 外层：sticky 跟随滚动，但不占宽度 */
 .toc-sidebar {
-    position: fixed;        /* 固定定位，脱离正常文档流，不占空间 */
-    left: 90px;             /* 距离屏幕左边 20px */
-    top: 120px;              /* 距离屏幕顶部 80px（在导航栏下方） */
-    width: 260px;           /* 目录栏宽度 */
-    max-height: 80vh;       /* 最大高度为视口的 80%，避免太长溢出屏幕 */
-    overflow-y: auto;       /* 目录太长时，目录栏内部出现滚动条 */
+    position: sticky;
+    top: 80px;
+    width: 0;              /* 关键！宽度为 0，不挤占正文 */
+    height: 0;             /* 高度也为 0，不撑高容器 */
+    overflow: visible;
+    flex-shrink: 0;
 }
 
+/* 内层：absolute 飘到正文左侧留白区 */
+.toc-sidebar .toc {
+    position: absolute;
+    left: -260px;          /* 往左飘 260px，落到留白区 */
+    width: 240px;          /* 目录实际宽度 */
+    max-height: 80vh;
+    overflow-y: auto;
+    font-size: 14px;
+}
+
+/* 目录里的链接字体 */
 .toc-sidebar a {
-    font-size: 13px;    /* 只改目录里的链接文字 */
+    font-size: 13px;
 }
 
-/* 加宽正文 */
+/* 正文：保持原宽度 */
+.post-content {
+    flex: 1;
+    min-width: 0;
+}
+
+/* 正文宽度（保持你原来的 900px，不因为目录而加宽） */
 :root {
     --main-width: 900px;
+}
+
+/* 窄屏：屏幕不够宽时，隐藏目录 */
+@media (max-width: 1200px) {
+    .toc-sidebar {
+        display: none;
+    }
 }

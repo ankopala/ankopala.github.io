@@ -1,14 +1,12 @@
 +++
 title = 'git 子模块与 submodule 命令详解'
-date = '2026-09-21T09:34:29+08:00'
+date = '2026-09-20T09:34:29+08:00'
 draft = false
 tags = ['Git', 'Hugo']
 ShowToc = true
 description = 'git 子模块与 submodule 命令详解'
 +++
 
-> 记录时间：2026-09-20
-> 
 > 背景：学习 Hugo + GitHub Pages 搭建博客，在「安装 PaperMod 主题」这一步遇到了 `git submodule` 命令。
 
 > ⚠️ **注意**：文中的 PaperMod 主题仓库地址务必以官方为准，使用前请先核对最新地址：
