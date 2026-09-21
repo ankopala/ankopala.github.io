@@ -32,11 +32,3 @@ layout: "single"
 <div style="text-align: center;">
 —— 豪尔赫·路易斯·博尔赫斯（1934）
 </div>
-
-
-
-
-
-
-
-

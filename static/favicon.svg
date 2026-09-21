@@ -1,9 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <rect width="64" height="64" rx="14" fill="#2C2C2A"/>
-  <path d="M20 25h24v14c0 7-5.4 12-12 12s-12-5-12-12z" fill="#F5F5F2"/>
-  <rect x="44" y="27" width="10" height="12" rx="5" fill="none" stroke="#F5F5F2" stroke-width="3"/>
-  <path d="M18 20h28" stroke="#F5F5F2" stroke-width="3" stroke-linecap="round"/>
-  <rect x="20" y="21" width="4" height="3" fill="#9A9A93"/>
-  <rect x="30" y="21" width="4" height="3" fill="#9A9A93"/>
-  <rect x="40" y="21" width="4" height="3" fill="#9A9A93"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_1" data-name="图层_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 64 64">
+  <!-- Generator: Adobe Illustrator 30.8.1, SVG Export Plug-In . SVG Version: 2.1.4 Build 1)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #9a9a93;
+      }
+
+      .st1 {
+        fill: #2c2c2a;
+      }
+
+      .st2 {
+        stroke-linecap: round;
+      }
+
+      .st2, .st3 {
+        stroke: #f5f5f2;
+        stroke-width: 3px;
+      }
+
+      .st4 {
+        fill: #f5f5f2;
+      }
+
+      .st3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <rect class="st1" width="64" height="64" rx="14" ry="14"/>
+  <g>
+    <path class="st2" d="M16.74,18.2h28"/>
+    <path class="st4" d="M18.74,23.2h24v14c0,7-5.4,12-12,12s-12-5-12-12v-14Z"/>
+    <path class="st3" d="M47.74,25.2h0c2.76,0,5,2.24,5,5v2c0,2.76-2.24,5-5,5h0c-2.76,0-5-2.24-5-5v-2c0-2.76,2.24-5,5-5Z"/>
+    <rect class="st0" x="18.74" y="19.87" width="4" height="3"/>
+    <rect class="st0" x="28.74" y="19.87" width="4" height="3"/>
+    <rect class="st0" x="38.74" y="19.87" width="4" height="3"/>
+  </g>
 </svg>
