@@ -1,0 +1,11 @@
+baseURL = 'https://ankopala.github.io/'
+locale = 'en-us'
+title = "ankopala's Blog"
+theme = "PaperMod"
+
+[params]
+ShowToc = true
+TocOpen = true
+  [params.homeInfoParams]
+    Title = "My Blog"
+    Content = "欢迎来到我的博客"

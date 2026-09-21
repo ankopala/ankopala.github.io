@@ -1,0 +1,16 @@
+# Hugo 构建产物（本地构建时生成，不需要提交）
+/public/
+
+# Hugo 的资源缓存
+/resources/_gen/
+
+# Hugo 的构建锁文件
+.hugo_build.lock
+
+# macOS 系统文件
+.DS_Store
+
+# 编辑器/IDE
+.idea/
+.vscode/
+*.swp
