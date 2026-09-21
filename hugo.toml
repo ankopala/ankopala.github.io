@@ -6,6 +6,11 @@ theme = "PaperMod"
 [params]
 ShowToc = true
 TocOpen = true
+
+  [params.assets]
+    favicon = "favicon.ico"
+    favicon16x16 = "favicon-16x16.png"
+    favicon32x32 = "favicon-32x32.png"
   [params.homeInfoParams]
     Title = "My Blog"
     Content = "欢迎来到我的博客"
