@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="_图层_1" data-name="图层_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 64 64">
+<svg id="_图层_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 64 64">
   <!-- Generator: Adobe Illustrator 30.8.1, SVG Export Plug-In . SVG Version: 2.1.4 Build 1)  -->
   <defs>
     <style>
@@ -31,11 +31,11 @@
   </defs>
   <rect class="st1" width="64" height="64" rx="14" ry="14"/>
   <g>
-    <path class="st2" d="M16.74,18.2h28"/>
-    <path class="st4" d="M18.74,23.2h24v14c0,7-5.4,12-12,12s-12-5-12-12v-14Z"/>
-    <path class="st3" d="M47.74,25.2h0c2.76,0,5,2.24,5,5v2c0,2.76-2.24,5-5,5h0c-2.76,0-5-2.24-5-5v-2c0-2.76,2.24-5,5-5Z"/>
-    <rect class="st0" x="18.74" y="19.87" width="4" height="3"/>
-    <rect class="st0" x="28.74" y="19.87" width="4" height="3"/>
-    <rect class="st0" x="38.74" y="19.87" width="4" height="3"/>
+    <path class="st2" d="M15.78,19.16h28"/>
+    <path class="st4" d="M17.78,24.16h24v14c0,7-5.4,12-12,12s-12-5-12-12c0,0,0-14,0-14Z"/>
+    <path class="st3" d="M46.78,26.16h0c2.76,0,5,2.24,5,5v2c0,2.76-2.24,5-5,5h0c-2.76,0-5-2.24-5-5v-2c0-2.76,2.24-5,5-5Z"/>
+    <rect class="st0" x="17.78" y="20.83" width="4" height="3"/>
+    <rect class="st0" x="27.78" y="20.83" width="4" height="3"/>
+    <rect class="st0" x="37.78" y="20.83" width="4" height="3"/>
   </g>
 </svg>
