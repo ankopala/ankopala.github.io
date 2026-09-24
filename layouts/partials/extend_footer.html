@@ -1,0 +1,44 @@
+{{- if or (eq .Kind "page") (eq .Kind "section") -}}
+<script>
+  (function () {
+    // 只在页面里存在 mermaid 代码块时才加载，避免全站无谓请求
+    if (!document.querySelector('code.language-mermaid')) return;
+
+    var scripts = [
+      "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js",
+      "https://unpkg.com/mermaid@10/dist/mermaid.min.js" // 备用 fallback
+    ];
+
+    function load(src, onDone, onFail) {
+      var s = document.createElement("script");
+      s.src = src;
+      s.async = true;
+      s.onload = onDone;
+      s.onerror = onFail;
+      document.body.appendChild(s);
+    }
+
+    function init() {
+      if (typeof mermaid === "undefined") return;
+      mermaid.initialize({
+        startOnLoad: false,
+        theme: document.documentElement.dataset.theme === "dark" ? "dark" : "default",
+        securityLevel: "loose",
+        flowchart: { useMaxWidth: true }
+      });
+      mermaid.run({ querySelector: ".language-mermaid" });
+    }
+
+    function tryLoad(i) {
+      if (i >= scripts.length) return;
+      load(scripts[i], init, function () { tryLoad(i + 1); });
+    }
+
+    if (typeof mermaid === "undefined") {
+      tryLoad(0);
+    } else {
+      init();
+    }
+  })();
+</script>
+{{- end -}}

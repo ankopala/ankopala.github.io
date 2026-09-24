@@ -47,3 +47,30 @@
         display: none;
     }
 }
+
+/* ===== mermaid 图表样式 ===== */
+/* 去掉 PaperMod 代码块残留的深色背景和内边距，让图干净居中 */
+.md-content .mermaid,
+.md-content pre.mermaid,
+.md-content code.language-mermaid {
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 1.5em auto;
+    text-align: center;
+    display: block;
+    border-radius: 0;
+}
+
+/* 让 SVG 图自适应宽度、保持比例、水平居中 */
+.md-content .mermaid svg {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+/* 如果 mermaid 把图塞进了 <pre> 里，也一并去掉 <pre> 的深色背景 */
+.md-content pre:has(code.language-mermaid),
+.md-content pre:has(.mermaid) {
+    background: transparent !important;
+    border: none;
+}
