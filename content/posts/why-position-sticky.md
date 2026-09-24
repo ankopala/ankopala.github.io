@@ -1,10 +1,10 @@
 +++
-title = '窄屏适配与 `position: stikiy` '
+title = '窄屏适配与 `position: sticky` '
 date = '2026-09-21T15:20:29+08:00'
 draft = false
 tags = ['css']
 ShowToc = true
-description = '窄屏适配与`position: stikiy`'
+description = '窄屏适配与`position: sticky`'
 +++
 
 > 背景：给 PaperMod 博客做「左侧悬浮目录」，在做窄屏适配时，发现 `position: fixed` 方案越补越复杂，进而推导出 `position: sticky` 才是正解。
