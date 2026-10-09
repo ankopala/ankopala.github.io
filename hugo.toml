@@ -57,3 +57,8 @@ comments = true
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/ankopala"
+
+  [[params.socialIcons]]
+    name = "bangumi"
+    url = "https://bgm.tv/user/ankopala"
+

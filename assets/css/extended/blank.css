@@ -48,6 +48,11 @@
     }
 }
 
+/* 收紧社交图标间距 */
+.social-icons a {
+    padding: 10px 4px;   /* 上下 10px，左右 4px */
+}
+
 /* ===== mermaid 图表样式 ===== */
 /* 去掉 PaperMod 代码块残留的深色背景和内边距，让图干净居中 */
 .md-content .mermaid,
